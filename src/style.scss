@@ -1,5 +1,8 @@
 @import "./scss/mixins";
 @import "./scss/reset";
 @import "./scss/variables";
-@import "./components/header/Header.scss";
-@import "./components/lesson/LessonCard.scss";
+
+body {
+  background-color: $bg-color;
+  font-family: $font-text;
+}
