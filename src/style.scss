@@ -7,10 +7,8 @@ body {
   font-family: $font-text;
 }
 .nba-bg {
-  background-image: url(./assets/nba-bg.jpg);
-  width: 100%;
-  height: 1000px;
-  background-position: center;
-  background-size: cover;
   border-radius: 10px;
+}
+.nba-bg {
+  width: 100%;
 }
