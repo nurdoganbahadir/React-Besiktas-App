@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaBasketball } from "react-icons/fa6";
 
 const PlayerCard = ({ players }) => {
   const [info, setInfo] = useState(Array(players.length).fill(false));
@@ -25,7 +26,7 @@ const PlayerCard = ({ players }) => {
               <div className="statistick">
                 {item.statistics.map((stat, statIndex) => (
                   <p key={statIndex} className="statistics">
-                    - {stat}
+                    <FaBasketball /> {stat}
                   </p>
                 ))}
               </div>
