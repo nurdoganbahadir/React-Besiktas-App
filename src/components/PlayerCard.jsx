@@ -23,7 +23,11 @@ const PlayerCard = ({ players }) => {
             <h5>{item.name}</h5>
             {info[index] && (
               <div className="statistick">
-                <p>-{item.statistics}</p>
+                {item.statistics.map((stat, statIndex) => (
+                  <p key={statIndex} className="statistics">
+                    - {stat}
+                  </p>
+                ))}
               </div>
             )}
           </div>
