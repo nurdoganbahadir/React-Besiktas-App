@@ -4,15 +4,13 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(255, 255, 109);
+.App {
+  background-color: yellow;
   font-family: "Inter", sans-serif;
 }
-
 .nba-bg {
   border-radius: 10px;
 }
-
 .nba-bg {
   width: 100%;
-}/*# sourceMappingURL=style.css.map */
+}
