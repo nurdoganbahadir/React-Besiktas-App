@@ -16,8 +16,9 @@
 }
 .nba {
   background-image: url(./assets/nba-bg.jpg);
-  height: 1000px;
+  /* height: 1000px; */
   border-radius: 10px;
+  padding: 1rem;
 }
 .card-container {
   width: 100%;
@@ -25,13 +26,18 @@
   border-radius: 5px;
   overflow: hidden;
   text-align: center;
+  border: 1px solid white;
 }
 .player-img {
   width: 100%;
   height: 400px;
   background-size: cover;
   background-position: center;
+  transition: all .5s;
 }
-h5{
+.player-img:hover{
+  transform: scale(90%);
+}
+h5 {
   padding: 10px;
 }
