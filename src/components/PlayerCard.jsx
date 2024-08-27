@@ -4,13 +4,13 @@ import { data } from "../helper/data";
 const PlayerCard = () => {
   return (
     <div className="row">
-      <div className="col-12">
-        {data.map((item) => {
-          <div className="container">
-            <img src={item.img} alt="" />
+      <div className="col">
+        {data.map((item, index) => (
+          <div className="container" key={index}>
+            <img src={item.img} alt={item.name} />
             <h2>{item.name}</h2>
-          </div>;
-        })}
+          </div>
+        ))}
       </div>
     </div>
   );
