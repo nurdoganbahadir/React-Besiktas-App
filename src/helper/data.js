@@ -43,7 +43,7 @@ export const data = [
     name: "Gabriel Paulista",
     position: "Defans",
     jersey_number: 3,
-    img: "https://images.bjk.com.tr/images/players/jonas-svensson_229x270_000004.png",
+    img: "https://images.bjk.com.tr/images/players/gabriel-paulista_229x270.png",
     statistics:
       "26 Kasım 1990 tarihinde Brezilya’da dünyaya geldi. 185 cm boyundaki defans oyuncusu; Villarreal, Arsenal, Valencia ve Atletico Madrid kulüplerinde forma giydi. Gabriel Paulista, 2024-25 sezonu başında Beşiktaşımızla sözleşme imzaladı.",
   },

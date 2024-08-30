@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaBasketball } from "react-icons/fa6";
 
 const PlayerCard = ({ players }) => {
   const [info, setInfo] = useState(Array(players.length).fill(false));

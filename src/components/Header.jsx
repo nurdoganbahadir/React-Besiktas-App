@@ -1,12 +1,11 @@
 import React from "react";
-import nbaUrl from "../assets/nba-logo.png";
-
+import bjkLogo from "../assets/bjk-logo.png";
 
 const Header = ({ onSearch }) => {
   return (
     <div className="container d-flex justify-content-center m-auto flex-column align-items-center gap-3 p-4">
-      <img src={nbaUrl} alt="nba-logo" />
-      <h1>NBA Legends</h1>
+      <img src={bjkLogo} alt="bjk-logo" />
+      <h1>BEŞİKTAŞ JK</h1>
       <input
         type="search"
         name="search-player"
