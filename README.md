@@ -1,4 +1,4 @@
-![NBA Legends](./nba-legends.gif)
+![NBA Legends](./bjk-team.gif)
 
 
 
