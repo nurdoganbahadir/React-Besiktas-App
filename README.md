@@ -1,4 +1,4 @@
-# Hi I'm Nurdoğan Bahadır 👋. Welcome to my Todo App Project with React.
+# Hi I'm Nurdoğan Bahadır 👋. Welcome to my Besiktas App Project with React.
 
 The aim of the project is to see the players of Beşiktaş Football team and browse them with search input.
 
